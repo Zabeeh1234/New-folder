@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/cash-register.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CASH REGISTER MANAGER</title>
+</head>
+<body>
+    <div class="container">
+    <h1 class="heading">CASH-REGISTER MANAGER</h1> 
+    <p class="description">Please enter the bill amount and the cash given by the customer below. We will calculate the minimum number of notes to return:</p>
+    <label for="bill-amount"><h1>BILL-AMOUNT:</h1></label>
+    <input id="bill-amount" type="text">
+    <label for="cash-given"><h1>CASH-GIVEN:</h1></label>
+    <input id="cash-given" type="text">
+    <button id="check-button">Check</button>
+    <p id="error-message"></p>
+    <table class="change-table">
+        <caption><h1>RETURN CHANGE</h1></caption>
+        <tr>
+            <th>No Of Notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+
+        </tr>
+        <tr>
+            <th>Notes</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+
+    </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

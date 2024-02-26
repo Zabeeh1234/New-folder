@@ -1,0 +1,101 @@
+*{
+
+}
+body {
+    /* background: linear-gradient(170deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%); */
+    background-image: url(img/vecteezy_modern-store-checkout-paying-with-credit-card_32943813.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+    font-family:monospace;
+    min-width: 20%;
+}
+.container input {
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+#check-button {
+    width: 100px;
+    height: 30px;
+    margin-left: 40%;
+    margin-top: 10px;
+    background-color: rgb(255, 248, 208);
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.change-table {
+    border: 1px solid black;
+}
+.no-of-notes{
+    border: 1px solid black;
+    background-color: rgb(255, 248, 208);
+}
+td{
+    border: 1px solid black;
+    background-color: rgb(255, 248, 208);
+}
+th{
+    border: 1px solid black;
+    background-color: rgb(255, 248, 208);
+    font-size: 15px;
+}
+.bill-amount{
+    font-weight: bold;
+    font-size: 15px;
+    color: brown;
+}
+.cash-given{
+    font-weight: bold;
+    font-size: 15px;
+    color: brown;
+}
+.return-change{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: brown;
+}
+
+@media (max-width: 501px){
+    h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .item{
+        font-size: .8rem;
+    }
+    .container {
+        font-size: .8rem;
+    }
+    .container input {
+        margin-left: 10px;
+        font-size: .8rem;
+        width: 80%;
+       
+    }
+}
